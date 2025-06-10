@@ -137,7 +137,7 @@
                 <div class="panel-header">
                     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                         <h3 style="margin: 0;">標籤儀表盤</h3>
-                        <div style="display: flex; align-items: center; gap: 10px;">
+                        <div style="display: flex; align-items: center; gap: 5%; width: 45%;">
                             <button id="exportBtn" class="action-btn">匯出</button>
                             <button id="importBtn" class="action-btn">匯入</button>
                             <div class="close-btn">×</div>
@@ -603,8 +603,8 @@
         } else {
             const username = target.textContent.trim();
             const hasTags = Object.entries(userTags).some(([tagName, users]) =>
-                                                          tags.some(t => t.name === tagName) && users.includes(username)
-                                                         );
+                                                            tags.some(t => t.name === tagName) && users.includes(username)
+                                                            );
 
             if (hasTags) {
                 const removeItem = document.createElement('div');
