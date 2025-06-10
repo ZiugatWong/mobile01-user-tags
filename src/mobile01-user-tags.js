@@ -553,20 +553,20 @@
     function applyTags() {
         document.querySelectorAll(nameSelectors).forEach(userEl => {
             const username = userEl.textContent.trim();
-            let tagsHtml = "";
+            let tagsHtml = '';
 
             Object.entries(userTags).forEach(([tagName, users]) => {
-            const tagExists = tags.some((t) => t.name === tagName);
-            if (tagExists && users.includes(username)) {
-                const tag = tags.find((t) => t.name === tagName);
-                tagsHtml += `<span class="user-tag" style="background:${tag.color}">${tag.name}</span>`;
-            }
+                const tagExists = tags.some(t => t.name === tagName);
+                if (tagExists && users.includes(username)) {
+                    const tag = tags.find(t => t.name === tagName);
+                    tagsHtml += `<span class="user-tag" style="background:${tag.color}">${tag.name}</span>`;
+                }
             });
 
             // remove old tags
             let tagContainer = userEl.nextElementSibling;
-            if (tagContainer?.classList?.contains("user-tags")) {
-            tagContainer.remove();
+            if (tagContainer?.classList?.contains('user-tags')) {
+                tagContainer.remove();
             }
 
             // show tags
@@ -602,10 +602,9 @@
             menu.appendChild(item);
         } else {
             const username = target.textContent.trim();
-            const hasTags = Object.entries(userTags).some(
-                ([tagName, users]) =>
-                tags.some((t) => t.name === tagName) && users.includes(username)
-            );
+            const hasTags = Object.entries(userTags).some(([tagName, users]) =>
+                                                          tags.some(t => t.name === tagName) && users.includes(username)
+                                                         );
 
             if (hasTags) {
                 const removeItem = document.createElement('div');
