@@ -16,6 +16,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
+// @downloadURL https://update.greasyfork.org/scripts/539101/Mobile01%20%E6%9C%83%E5%93%A1%E6%A8%99%E7%B1%A4.user.js
+// @updateURL https://update.greasyfork.org/scripts/539101/Mobile01%20%E6%9C%83%E5%93%A1%E6%A8%99%E7%B1%A4.meta.js
 // ==/UserScript==
 
 (function() {
