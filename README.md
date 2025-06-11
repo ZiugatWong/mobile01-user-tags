@@ -1,10 +1,14 @@
-# Mobile01 會員標籤
+<div align="center">
+<h1>Mobile01 會員標籤</h1>
+<a href="https://greasyfork.org/zh-CN/scripts/539101"><img alt="Greasyfork Version" src="https://img.shields.io/greasyfork/v/539101?style=flat-square"></a>
+<a href="https://greasyfork.org/zh-CN/scripts/539101"><img alt="Downloads Total" src="https://img.shields.io/greasyfork/dt/539101?style=flat-square"></a>
+<a href="https://greasyfork.org/zh-CN/scripts/539101"><img alt="Downloads Per Day" src="https://img.shields.io/greasyfork/dd/539101?style=flat-square"></a>
+<a href="https://greasyfork.org/zh-CN/scripts/539101"><img alt="Rating" src="https://img.shields.io/greasyfork/rating-count/539101?style=flat-square"></a>
+<br>
+<br>
+</div>
 
-## GitHub倉庫
-
-GitHub：[mobile01-user-tags](https://github.com/ZiugatWong/mobile01-user-tags)
-
-## 支援功能：展示自訂會員標籤、標籤數據匯出匯入
+## 支援：展示自訂會員標籤、標籤數據匯出匯入
 
 - 自訂標籤：自訂標籤文字和顏色
 - 快捷關聯：右鍵會員名稱可直接選擇標籤關聯
