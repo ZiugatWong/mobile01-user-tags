@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Mobile01 會員標籤
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @author       ziugat
 // @description  為 Mobile01 支持自訂會員標籤，便於區分特定帳號
 // @license      MIT
@@ -16,8 +16,6 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
-// @downloadURL https://update.greasyfork.org/scripts/539101/Mobile01%20%E6%9C%83%E5%93%A1%E6%A8%99%E7%B1%A4.user.js
-// @updateURL https://update.greasyfork.org/scripts/539101/Mobile01%20%E6%9C%83%E5%93%A1%E6%A8%99%E7%B1%A4.meta.js
 // ==/UserScript==
 
 (function() {
@@ -139,7 +137,7 @@
                 <div class="panel-header">
                     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                         <h3 style="margin: 0;">標籤儀表盤</h3>
-                        <div style="display: flex; align-items: center; gap: 5%; width: 45%;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; width: 45%;">
                             <button id="exportBtn" class="action-btn">匯出</button>
                             <button id="importBtn" class="action-btn">匯入</button>
                             <div class="close-btn">×</div>
