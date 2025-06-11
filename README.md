@@ -20,7 +20,7 @@
 
 點擊`標籤儀表盤`選單項進入儀表盤
 
-![儀表盤入口](https://raw.githubusercontent.com/ZiugatWong/mobile01-user-tags/main/img/menu.png)
+![儀表盤入口](./img/menu.png)
 
 ### 儀表盤說明
 
@@ -30,7 +30,7 @@
 1. `匯出`：以`JSON`格式顯示所有標籤數據
 1. `匯入`：將`匯出`顯示的`JSON`格式標籤數據填入，並確認匯入後，將用其覆蓋標籤數據（會丟失現有數據）
 
-![標籤儀表盤](https://raw.githubusercontent.com/ZiugatWong/mobile01-user-tags/main/img/ui.png)
+![標籤儀表盤](./img/ui.png)
 
 ### 關聯標籤及標籤顯示
 
@@ -41,4 +41,4 @@
 - 關聯標籤：在上述名字處點擊滑鼠右鍵，可看到關聯選單，選單同時支援`關聯`和`取消關聯`
 
 
-![顯示會員標籤](https://raw.githubusercontent.com/ZiugatWong/mobile01-user-tags/main/img/show-user-tags.png)
+![顯示會員標籤](./img/show-user-tags.png)
