@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Mobile01 會員標籤
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @author       ziugat
 // @description  為 Mobile01 支持自訂會員標籤，便於區分特定帳號
 // @license      MIT
@@ -267,7 +267,7 @@
                     resize: none;
                     padding: 8px;
                     border: 1px solid #555;
-                    border-radius: 4px;
+                    border-radius: 0px;
                 }
             `);
 
