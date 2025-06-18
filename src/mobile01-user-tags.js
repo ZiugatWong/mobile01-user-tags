@@ -8,8 +8,10 @@
 // @homepage     https://github.com/ZiugatWong/mobile01-user-tags
 // @supportURL   https://github.com/ZiugatWong/mobile01-user-tags
 // @match        http://www.mobile01.com/forumtopic.php*
+// @match        http://www.mobile01.com/topiclist.php*
 // @match        http://www.mobile01.com/topicdetail.php*
 // @match        https://www.mobile01.com/forumtopic.php*
+// @match        https://www.mobile01.com/topiclist.php*
 // @match        https://www.mobile01.com/topicdetail.php*
 // @icon         https://www.mobile01.com/favicon.ico
 // @grant        GM_addStyle
